@@ -46,7 +46,7 @@ h1, h2 {
 
 #menu-container {
     width: 100%;
-    height: 30px; 
+    height: 35px; 
     background-color: #F4EEDB;
     text-align: center;
 }
@@ -59,6 +59,7 @@ h1, h2 {
 #menu li {
     list-style-type: none;
     display: inline-block;
+    padding-top: 5px;
     width: 15%; 
 }
 
@@ -71,8 +72,19 @@ h1, h2 {
     border-bottom: 2px solid #85cbce;
 }
 
+/* hero image and style */ 
 
+#hero-container-home {
+    width: 100%; 
+    height: 600px;
+    overflow: hidden;
+}
 
+#hero-image-home {
+    width: 100%;
+    height: 100%;
+    background: url("../images/allosaur-skeleton.jpeg") no-repeat center center;
+}
 
 
 
