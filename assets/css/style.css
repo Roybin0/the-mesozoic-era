@@ -16,7 +16,7 @@ body {
     font-family: 'Jost', sans-serif;
     font-weight: 300;
     color: #000; 
-    background-color: #85cbce;
+    background-color: #fff;
 }
 
 /* Logo and headings style */ 
@@ -47,7 +47,7 @@ h1, h2 {
 #menu-container {
     width: 100%;
     height: 35px; 
-    background-color: #F4EEDB;
+    background-color: #85CBCE;
     text-align: center;
 }
 
@@ -69,24 +69,70 @@ h1, h2 {
 }
 
 .active {
-    border-bottom: 2px solid #85cbce;
+    border-bottom: 2px solid #000;
 }
 
-/* hero image and style */ 
+/* Hero image and style */ 
 
 #hero-container-home {
     width: 100%; 
-    height: 600px;
+    height: 500px;
     overflow: hidden;
 }
 
 #hero-image-home {
     width: 100%;
     height: 100%;
-    background: url("../images/allosaur-skeleton.jpeg") no-repeat center center;
+    background: url("../images/dinosaurs-colored2.png") no-repeat center center;
 }
 
+/* Timeline image and style */ 
 
+#timeline {
+    width: 100%;
+    height: auto;
+}
 
+#timeline-header {
+    width: 100%;
+    height: 40px;
+    background-color: #85CBCE;
+}
 
+#timeline-header h2 {
+    text-transform: uppercase;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+}
 
+#timeline-text-container {
+    font-size: 120%;
+}
+
+.timeline-block {
+    height: 260px;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+.align-left {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-right {
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border: 1px dotted #000;
+    width: 100%;
+}
