@@ -55,6 +55,7 @@ h1, h2 {
 #menu {
     text-transform: uppercase;
     font-weight: 500;
+    font-size: 120%;
 }
 
 #menu li {
@@ -175,7 +176,7 @@ hr {
 
 #footer {
     width: 100%;
-    background-color: #adf1f4;
+    background-color: #85CBCE;
     display: flex;
     flex-direction: column;
     justify-content: center;
