@@ -109,11 +109,12 @@ h1, h2 {
 }
 
 #timeline-text-container {
-    font-size: 120%;
+    font-size: 110%;
 }
 
 .timeline-block {
     height: 260px;
+    overflow: hidden;
 }
 
 .align-left {
@@ -129,7 +130,7 @@ h1, h2 {
 
 .align-left a {
     color: #2DADE1;
-    padding: 0 40px;
+    padding: 0 20px;
     font-weight: 500;
 }
 
@@ -158,7 +159,7 @@ hr {
 
 #extinction-homepage-text {
     width: 100%;
-    font-size: 120%;
+    font-size: 110%;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -210,4 +211,71 @@ hr {
 #copyright {
     font-size: 80%;
     padding-top: 20px;
+}
+
+/* Time periods page styling */  
+
+.time-period-block {
+    width: 100%;
+    height: auto;
+}
+
+.time-period-header {
+    display: flex;
+    justify-content: center;
+    background-color: #adf1f4;
+    padding: 5px 0;
+}
+
+.time-period-content {
+    width: 100%;
+    height: 700px; 
+    position: relative;
+}
+
+.time-period-text {
+    font-size: 110%;
+    height: 650px;
+    overflow: auto;
+}
+
+.time-period-text p {
+    margin: auto 0;
+}
+
+.time-period-text a {
+    padding: 0;
+}
+
+.time-period-images {
+    width: 50%;
+    float: right;
+}
+
+.slide-image {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-display-left {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+
+.button-display-right {
+    position: absolute;
+    top: 55%;
+    right: 0%;
 }
