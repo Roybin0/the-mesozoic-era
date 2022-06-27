@@ -217,7 +217,7 @@ hr {
 
 .time-period-block {
     width: 100%;
-    height: auto;
+    height: 700px;
 }
 
 .time-period-header {
@@ -235,12 +235,17 @@ hr {
 
 .time-period-text {
     font-size: 110%;
+    width: 50%;
     height: 650px;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
 }
 
 .time-period-text p {
-    margin: auto 0;
+    width: 90%;
+    margin: auto;
 }
 
 .time-period-text a {
@@ -250,6 +255,7 @@ hr {
 .time-period-images {
     width: 50%;
     float: right;
+    padding-top: 20px;
 }
 
 .slide-image {
@@ -278,4 +284,13 @@ hr {
     position: absolute;
     top: 55%;
     right: 0%;
+}
+
+/* Extinction page style */ 
+
+.extinction-header {
+    display: flex;
+    justify-content: center;
+    background-color: #adf1f4;
+    padding: 5px 0;
 }
