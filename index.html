@@ -22,7 +22,7 @@
 
         <div id="menu-container">
             <nav id="menu">
-                <ul>
+                <ul class="menu-links">
                     <li>
                         <a href="index.html" class="active">Home</a>
                     </li>
@@ -51,31 +51,31 @@
             <h2>When did Dinosaurs roam the earth?</h2>
         </div>
 
-        <div id="timeline-text-container">
+        <div id="timeline-container">
 
             <div class="timeline-block">
                 
-                <div class="align-left">
+                <div class="timeline-block-content">
                     <p>When did these massive creatures roam the Earth? To answer that, let's take a little look at how Earth, and life, has evolved over the last few billion years.
-                    Earth is roughly 4.6 billion years old. For a <em>very</em> long time, the Earth was bombarded with asteroids, comets and other foreign objects making it uninhabitable. Scientists believe that these comets brought water and other building blocks of life to our planet.</p>
+                     Earth is roughly 4.6 billion years old. For a <em>very</em> long time, the Earth was bombarded with asteroids, comets and other foreign objects making it uninhabitable. Scientists believe that these comets brought water and other building blocks of life to our planet.</p>
                 </div>
 
-                <div class="align-right">
-                    <img src="assets/images/geologic-timeline-eons.png" alt="Timeline of Earth broken into 6 eons">
+                <div class="timeline-block-content">
+                    <img class="timeline-image" src="assets/images/geologic-timeline-eons.png" alt="Timeline of Earth broken into 6 eons">
                 </div>
-
-             </div>
+              
+            </div>
 
              <hr>
 
-            <div class="timeline-block">
+            <div class="timeline-block timeline-block-reverse">
 
-                <div class="align-right">
+                <div class="timeline-block-content">
                     <p>While there is evidence of cyanobacteria (bacteria that is aquatic and photosynthetic, meaning it can manufacture it's own food) on Earth up to 3.5 billion years ago, it wasn't until oxygen and Earth's ozone layer formed that life as we know it began to form. Known as the Cambrian explosion during the Paleozoic Era (541 - 245 million years ago), life in the form of invertebrates, fish, fungi, plants, amphibians and insects emerged.</p>
                 </div>
 
-                <div class="align-left">
-                    <img src="assets/images/cambrian-explosion.png" alt="A timeline showing the evolution of different life forms 500 million years ago.">
+                <div class="timeline-block-content">
+                    <img class="timeline-image" src="assets/images/cambrian-explosion.png" alt="A timeline showing the evolution of different life forms 500 million years ago.">
                 </div>
 
             </div>
@@ -84,34 +84,36 @@
 
             <div class="timeline-block">
 
-                <div class="align-left">
+                <div class="timeline-block-content">
+
                     <p>A massive extinction event at the end of the Paleozoic gave rise to reptiles and dinosaurs. The first dinosaurs on Earth are thought to have evolved about 252 million years ago. The last dinosaurs lived on Earth roughly 66 million years ago.
                     That's <strong>186 million years</strong> of dinosaurs! Because dinosaurs lived on Earth for so long, we can break this into three separate time periods:
-                    <br>
-                    <ul>
+                    </p>
+
+                    <ul id="timeline-periods-menu">
                        <li><a href="time-periods.html#triassic-period">Triassic Period</a></li>
                        <li><a href="time-periods.html#jurassic-period">Jurassic Period</a></li>
                        <li><a href="time-periods.html#cretaceous-period">Cretaceous Period</a></li>
                     </ul>
-                    </p>
+                    
                 </div>
 
-                <div class="align-right">
-                    <img src="assets/images/age-of-dinosaurs.png" alt="A linear image showing the evolution of types life on Earth during the Mesozoic era from reptiles and dinosaurs to flowering plants.">
+                <div class="timeline-block-content">
+                    <img class="timeline-image" src="assets/images/age-of-dinosaurs.png" alt="A linear image showing the evolution of types life on Earth during the Mesozoic era from reptiles and dinosaurs to flowering plants.">
                 </div>
 
             </div>
 
             <hr>
 
-            <div class="timeline-block">
+            <div class="timeline-block timeline-block-reverse">
 
-                <div class="align-right">
+                <div class="timeline-block-content">
                     <p>Another massive extinction event at the end of the Cretaceous period brought about the end of the dinosaurs and the rise of mammals. This eventually included the first human species around 7 million years ago. </p>
                 </div>
 
-                <div class="align-left">
-                    <img src="assets/images/age-of-mammals.png" alt="A linear timeline showing the evolution of types of life on Earth during the Cenozoic era from mammals to humans">
+                <div class="timeline-block-content">
+                    <img class="timeline-image" src="assets/images/age-of-mammals.png" alt="A linear timeline showing the evolution of types of life on Earth during the Cenozoic era from mammals to humans">
                 </div>
 
             </div>
@@ -129,9 +131,9 @@
         <div id="extinction-homepage-block">
        
             <div id="extinction-homepage-text">
-                <p>So, where did they all go?
-                <br><br>While nobody knows for certain, there is scientific evidence to support multiple catastrophic global events, including one during the Mesozoic Era at the end of the Triassic Period, and another at the end of the Cretaceous Period.
-                <br>Read more about these extinction theories on our <a href="extinction.html">Extinction page</a>!</p>
+                <p>So, where did they all go?</p>
+                <p>While nobody knows for certain, there is scientific evidence to support multiple catastrophic global events, including one during the Mesozoic Era at the end of the Triassic Period, and another at the end of the Cretaceous Period.</p>
+                <p>Read more about these extinction theories on our <a href="extinction.html">Extinction page</a>!</p>
             </div>
 
         </div>
