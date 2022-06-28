@@ -8,6 +8,7 @@
     <meta name="keywords" content="dinosaurs, mesozoic era, triassic, jurrasic, cretaceous, extinction">
    
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>The Mesozic Era</title>
 </head>
 <body>
@@ -18,6 +19,26 @@
             <a href="index.html">
                 <h1 id="logo">The Mesozoic Era</h1>
             </a>
+
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="time-periods.html" class="active">Time Periods</a>
+                    </li>
+                    <li>
+                        <a href="extinction.html">Extinction</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <div id="menu-container">
@@ -315,57 +336,63 @@
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/c1ba389408.js" crossorigin="anonymous"></script>
 
-    <!-- scripts for slideshow -->
+    <!-- script for menu -->
+    <script>
+        function toggleMobileMenu(menu) {
+        menu.classList.toggle('open');
+        }
+    </script>
 
+    <!-- scripts for slideshow -->
     <script>
         var triassicSlideIndex = 1;
-        showTriassicSlide(triassicSlideIndex);
+    showTriassicSlide(triassicSlideIndex);
         
-        function plusTriassicSlide(n) {
-          showTriassicSlide(triassicSlideIndex += n);
-        }
+    function plusTriassicSlide(n) {
+        showTriassicSlide(triassicSlideIndex += n);
+    }
         
-        function showTriassicSlide(n) {
-            var i;
-            var x = document.getElementsByClassName("triassic-slide");
-            if (n > x.length) {triassicSlideIndex = 1}
-            if (n < 1) {triassicSlideIndex = x.length}
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-                }
-            x[triassicSlideIndex-1].style.display = "block";  
+    function showTriassicSlide(n) {
+        var i;
+        var x = document.getElementsByClassName("triassic-slide");
+        if (n > x.length) {triassicSlideIndex = 1}
+        if (n < 1) {triassicSlideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
             }
+        x[triassicSlideIndex-1].style.display = "block";  
+        }
     </script>
 
     <script>
         var jurassicSlideIndex = 1;
-        showJurassicSlide(jurassicSlideIndex);
+    showJurassicSlide(jurassicSlideIndex);
             
-        function plusJurassicSlide(n) {
-        showJurassicSlide(jurassicSlideIndex += n);
+    function plusJurassicSlide(n) {
+    showJurassicSlide(jurassicSlideIndex += n);
+    }
+            
+    function showJurassicSlide(n) {
+        var i;
+        var x = document.getElementsByClassName("jurassic-slide");
+        if (n > x.length) {jurassicSlideIndex = 1}
+        if (n < 1) {jurassicSlideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
         }
-            
-        function showJurassicSlide(n) {
-            var i;
-            var x = document.getElementsByClassName("jurassic-slide");
-            if (n > x.length) {jurassicSlideIndex = 1}
-            if (n < 1) {jurassicSlideIndex = x.length}
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-            }
-            x[jurassicSlideIndex-1].style.display = "block";  
-            }
+        x[jurassicSlideIndex-1].style.display = "block";  
+        }
     </script>
 
     <script>
         var cretaceousSlideIndex = 1;
-        showCretaceousSlide(cretaceousSlideIndex);
-    
-        function plusCretaceousSlide(n) {
+    showCretaceousSlide(cretaceousSlideIndex);
+        
+    function plusCretaceousSlide(n) {
         showCretaceousSlide(cretaceousSlideIndex += n);
         }
-    
-        function showCretaceousSlide(n) {
+        
+    function showCretaceousSlide(n) {
             var i;
             var x = document.getElementsByClassName("cretaceous-slide");
             if (n > x.length) {cretaceousSlideIndex = 1}

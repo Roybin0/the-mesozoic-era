@@ -18,9 +18,31 @@
             <a href="index.html">
                 <h1 id="logo">The Mesozoic Era</h1>
             </a>
+
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="time-periods.html">Time Periods</a>
+                    </li>
+                    <li>
+                        <a href="extinction.html">Extinction</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
 
         <div id="menu-container">
+
             <nav id="menu">
                 <ul class="menu-links">
                     <li>
@@ -37,12 +59,17 @@
                     </li>
                 </ul>
             </nav>
+
         </div>
 
     </header>
 
     <div id="hero-container-home">
-        <div id="hero-image-home"></div>
+        <div id="hero-image-home">
+            <img class="hero-image" src="assets/images/dinosaurs-colored2.png" alt="A drawing of eight different colourful dinosaurs">
+            <img class="hero-image-small" src="assets/images/dinosaurs-hero-phone.png" alt="A drawing of six different colourful dinosaurs">  
+            <img class="hero-image-mobile" src="assets/images/dinosaurs-four.png" alt="A drawing of four different colourful dinosaurs">  
+        </div>
     </div>
 
     <section id="timeline">
@@ -168,6 +195,13 @@
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/c1ba389408.js" crossorigin="anonymous"></script>
+
+    <!-- script for menu -->
+     <script>
+        function toggleMobileMenu(menu) {
+            menu.classList.toggle('open');
+        }
+     </script>
 
 </body>
 </html>

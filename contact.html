@@ -18,6 +18,26 @@
             <a href="index.html">
                 <h1 id="logo">The Mesozoic Era</h1>
             </a>
+
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="time-periods.html">Time Periods</a>
+                    </li>
+                    <li>
+                        <a href="extinction.html">Extinction</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <div id="menu-container">
@@ -111,6 +131,13 @@
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/c1ba389408.js" crossorigin="anonymous"></script>
+
+    <!-- script for menu -->
+    <script>
+        function toggleMobileMenu(menu) {
+            menu.classList.toggle('open');
+        }
+     </script>
 
 </body>
 </html>

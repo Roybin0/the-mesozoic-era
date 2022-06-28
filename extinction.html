@@ -8,6 +8,7 @@
     <meta name="keywords" content="dinosaurs, mesozoic era, triassic, jurrasic, cretaceous, extinction">
    
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>The Mesozic Era</title>
 </head>
 <body>
@@ -18,6 +19,26 @@
             <a href="index.html">
                 <h1 id="logo">The Mesozoic Era</h1>
             </a>
+
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li>
+                        <a href="index.html" >Home</a>
+                    </li>
+                    <li>
+                        <a href="time-periods.html">Time Periods</a>
+                    </li>
+                    <li>
+                        <a href="extinction.html" class="active">Extinction</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <div id="menu-container">
@@ -179,16 +200,22 @@
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/c1ba389408.js" crossorigin="anonymous"></script>
 
-    <!-- scripts for slideshow -->
+    <!-- script for menu -->
+    <script>
+        function toggleMobileMenu(menu) {
+        menu.classList.toggle('open');
+        }
+    </script>
 
+    <!-- scripts for slideshow -->
     <script>
         var triassicExtinctSlideIndex = 1;
         showTriassicExtinctSlide(triassicExtinctSlideIndex);
-        
+                
         function plusTriassicExtinctSlide(n) {
-          showTriassicExtinctSlide(triassicExtinctSlideIndex += n);
+            showTriassicExtinctSlide(triassicExtinctSlideIndex += n);
         }
-        
+                
         function showTriassicExtinctSlide(n) {
             var i;
             var x = document.getElementsByClassName("triassic-extinction-slide");
@@ -196,7 +223,7 @@
             if (n < 1) {triassicExtinctSlideIndex = x.length}
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";  
-                }
+            }
             x[triassicExtinctSlideIndex-1].style.display = "block";  
             }
     </script>
@@ -204,11 +231,11 @@
     <script>
         var cretaceousExtinctSlideIndex = 1;
         showCretaceousExtinctSlide(cretaceousExtinctSlideIndex);
-        
+            
         function plusCretaceousExtinctSlide(n) {
-          showCretaceousExtinctSlide(cretaceousExtinctSlideIndex += n);
+            showCretaceousExtinctSlide(cretaceousExtinctSlideIndex += n);
         }
-        
+            
         function showCretaceousExtinctSlide(n) {
             var i;
             var x = document.getElementsByClassName("cretaceous-extinction-slide");
