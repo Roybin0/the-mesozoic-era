@@ -24,7 +24,7 @@
             <nav id="menu">
                 <ul>
                     <li>
-                        <a href="index.html" class="active">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="time-periods.html">Time Periods</a>
@@ -33,7 +33,7 @@
                         <a href="extinction.html">Extinction</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="contact.html" class="active">Contact Us</a>
                     </li>
                 </ul>
             </nav>
@@ -41,8 +41,47 @@
 
     </header>
 
-    <section>
-        contact form
+    <section id="contact-form-container">
+
+        <div id="contact-form-image">
+            <img class="form-image" src="/assets/images/dinosaurs.jpeg" alt="A drawing of different types of dinosaurs in a waterway landscape">
+        </div>
+
+        <div id="contact-form">
+            <form method="post" action="mailto:robyn.roybin@gmail.com"> 
+
+                <h2>Get in touch! <i class="fa-solid fa-circle-envelope"></i></h2>
+
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="first_name" class="text-input form-width-50" required>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="last_name" class="text-input form-width-50" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="text-input form-width-100" required>
+
+                <label for="phone">Phone No.:</label>
+                <input type="tel" id="phone" name="phone_number" class="text-input form-width-100">
+
+                <p>Preferred Contact Method: 
+                <input type="radio" id="pref-email" name="contact_preference" value="Email">   
+                <label for="pref-email">Email</label>
+                
+                <input type="radio" id="pref-phone" name="contact_preference" value="Phone">
+                <label for="pref-phone">Phone</label>
+                
+                <input type="radio" id="pref-none" name="contact_preference" value="None">
+                <label for="pref-none">Either</label></p><br>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="7" cols="40" class="message-box form-width-100"></textarea>
+
+                <input id="contact-button" type="submit" value="Send Message!">
+
+            </form>
+        </div>
+
     </section>
 
     <footer id="footer">

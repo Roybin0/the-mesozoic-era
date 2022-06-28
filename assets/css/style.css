@@ -150,7 +150,7 @@ hr {
     width: 100%;
 }
 
-/* Extinction homepage style */ 
+/* Extinction section on homepage style */ 
 
 #extinction-homepage {
     width: 100%;
@@ -223,7 +223,7 @@ hr {
 .time-period-header {
     display: flex;
     justify-content: center;
-    background-color: #adf1f4;
+    background-color: #85CBCE;
     padding: 5px 0;
 }
 
@@ -316,7 +316,7 @@ hr {
 .extinction-header {
     display: flex;
     justify-content: center;
-    background-color: #adf1f4;
+    background-color: #85CBCE;
     padding: 5px 0;
 }
 
@@ -369,3 +369,83 @@ hr {
 iframe {
     padding-top: 30px;
 }
+
+/* Contact page style */
+
+#contact-form-container {
+    width: 100%;
+}
+
+.form-image {
+    width: 100%;
+    max-height: 700px;
+    object-fit: none;
+    object-position: bottom;
+    float: left;
+    position: relative;
+}
+
+#contact-form {
+    margin-top: 100px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.7);
+    max-width: 420px;
+    max-height: 500px;
+    position: absolute;
+    left: 15%;
+    padding: 20px;
+}
+
+#contact-form h2 {
+    color: #adf1f4;
+    margin-bottom: 10px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    height: 25px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.form-width-50 {
+    width: 30%;
+}
+
+.form-width-100 {
+    width: 100%;
+}
+
+.message-box {
+    background: transparent;
+    color: #fafafa;
+    margin: 10px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #adf1f4;
+}
+
+.message-box:hover {
+    border-color: #adf1f4;
+}
+
+#contact-button {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 100%;
+    padding: 10px 15px;
+    background-color: #85CBCE;
+    color: #fafafa;
+    display: block;
+}
+
+#contact-button:hover {
+    background-color: #fafafa;
+    color: #85CBCE;
+}
+
