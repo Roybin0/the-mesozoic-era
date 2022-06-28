@@ -29,7 +29,7 @@ h1, h2 {
 #logo-container {
     width: 100%;
     height: 50px;
-    background-color: #adf1f4;
+    background-color: #85CBCE;
 }
 
 #logo-container a {
@@ -48,7 +48,7 @@ h1, h2 {
 #menu-container {
     width: 100%;
     height: 40px; 
-    background-color: #85CBCE;
+    background-color: #adf1f4;
     text-align: center;
 }
 
@@ -164,33 +164,6 @@ hr {
     width: 100%;
 }
 
-/* Remove these */
-
-.align-left {
-    width: 50%;
-    height: 100%;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0 30px;
-}
-
-.align-right {
-    width: 50%;
-    height: 100%;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0 30px;
-}
-
-
-
 /* Extinction section on homepage style */ 
 
 #extinction-homepage {
@@ -265,14 +238,16 @@ hr {
     width: 100%;
     height: 700px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .time-period-header {
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #85CBCE;
-    padding: 5px 0;
 }
 
 .time-period-content {
@@ -295,12 +270,12 @@ hr {
     flex-direction: column;
     align-items: center;
 
-    box-sizing: border-box;
     padding: 20px 30px 0 30px;
 }
 
 .time-period-text p {
     width: 90%;
+    padding: 15px 0;
     margin: auto;
 }
 
@@ -344,7 +319,7 @@ hr {
 .button-display-left {
     position: absolute;
     top: 55%;
-    left: 50%;
+    left: 53%;
 }
 
 .button-display-right {
@@ -356,10 +331,11 @@ hr {
 /* Extinction page style */ 
 
 .extinction-header {
+    width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: #85CBCE;
-    padding: 5px 0;
 }
 
 .extinction-content {
@@ -369,26 +345,27 @@ hr {
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .extinction-text {
     font-size: 110%;
     width: 50%;
-    height: 600px;
+    height: 80%;
     overflow: auto;
     
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
-    box-sizing: border-box;
     padding: 20px 30px 0 30px;
 }
 
 .extinction-text p, h3 {
     width: 90%;
     margin: auto;
+    padding: 5px 0;
 }
 
 .extinction-media {
@@ -487,24 +464,85 @@ iframe {
 
 /* Media qeuries */ 
 
-/* For larger to medium screens from 1250px wide and down */ 
-@media screen and (max-width: 1250px) {
+/* For larger to medium screens from 1200px wide and down */ 
+@media screen and (max-width: 1200px) {
 
     .timeline-block {
         height: auto;
-    }
-    .align-left, .align-right {
-        width: 100%;
-        height: auto;
-        float: right;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-sizing: border-box;
-        padding: 0 30px;
+        flex-direction: column;
     }
 
-    .align-left a {
-        padding: 0;
+    .timeline-block-reverse {
+        flex-direction: column;
     }
+
+    .timeline-block-content {
+        width: 80%;
+        padding: 20px 0;
+        justify-content: center;
+    }
+
+    hr {
+        display: none;
+    }
+
+}
+
+/* For medium screens 950px wide and down */ 
+@media screen and (max-width: 950px) {
+
+    .time-period-block {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+
+    .time-period-content {
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .time-period-text, .time-period-images {
+        width: 90%;
+        height: 100%;
+        overflow: hidden;
+
+    }
+
+    .time-period-text {
+        margin: 0 auto;
+    }
+
+    .time-period-text h3 {
+        text-align: center;
+    }
+
+    .time-period-images {
+        margin: 0 auto;
+    }
+
+    .button-display-left {
+        top: 20%;
+        left: 8%;
+    }
+    
+    .button-display-right {
+        top: 20%;
+        right: 8%;
+    }
+
+    .extinction-content {
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    
+    .extinction-text, .extinction-media {
+        width: 90%;
+    }
+    
+    .extinction-text p  {
+        padding-bottom: 20px;
+    }
+
+
 }
