@@ -122,6 +122,7 @@ h1, h2 {
     height: 100%;
     float: left;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -186,7 +187,7 @@ hr {
 
 #contact-info {
     width: 100%;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 #contact-info li {
@@ -201,7 +202,8 @@ hr {
 #social-media li {
     color: #000;
     display: inline;
-    padding: 0 25px;
+    font-size: 150%;
+    padding: 5px 25px;
 }
 
 #social-media a {
@@ -210,7 +212,6 @@ hr {
 
 #copyright {
     font-size: 80%;
-    padding-top: 20px;
 }
 
 /* Time periods page styling */  
@@ -453,3 +454,27 @@ iframe {
     color: #85CBCE;
 }
 
+
+/* Media qeuries */ 
+
+/* For larger to medium screens from 1250px wide and down */ 
+@media screen and (max-width: 1250px) {
+
+    .timeline-block {
+        height: auto;
+    }
+    .align-left, .align-right {
+        width: 100%;
+        height: auto;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0 30px;
+    }
+
+    .align-left a {
+        padding: 0;
+    }
+}
