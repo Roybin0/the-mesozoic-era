@@ -299,6 +299,10 @@ hr {
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: rgba(133, 203, 206, 0.6);
+}
+
 .button-display-left {
     position: absolute;
     top: 55%;
