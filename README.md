@@ -132,7 +132,7 @@ The navigation bar is found on all pages of the website, and includes links to t
 
 ## History
 
-The history timeline on the home page was built using flex design to allow for a better responsiveness. 
+The history timeline on the home page was built using flex design to allow for a better responsiveness. The layout of text and image is clean and structured well for the user. 
 
 ![](https://roybin0.github.io/the-mesozoic-era/assets/images/history-homepage.png)
 
@@ -148,7 +148,7 @@ A tutorial from W3 schools was followed to achieve this and it allows the user t
 
 Videos were added to give the user multiple formats for learning about extinction level events during the Mesozoic Era. 
 
-Video does not autoplay and controls are available for users to play/pause as they need to. 
+Videos do not autoplay and controls are available for users to play/pause as they need to. 
 
 Videos are found only on the Extinctions page which utlises the time period blocks. 
 
