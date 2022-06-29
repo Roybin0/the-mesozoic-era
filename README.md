@@ -190,6 +190,7 @@ Responsive behaviour tested thoroughly and looks good. All pages and links worki
 
 * I would like to add a dark mode option for users who prefer dark mode. 
 * I would like to add another section to the Time Period page with more dinosaur-specific facts and figures for each time period. This would need to act responsive like other elements and not add too much content to the overall page. A separate page could also be considered for this. 
+* I would like to improve the quality of the images on the website and ensure all images are in the webp format. 
 
 ## Validator Testing
 
@@ -220,7 +221,11 @@ Responsive behaviour tested thoroughly and looks good. All pages and links worki
 
 ## Lighthouse Report 
 
+The Lighthouse report shows the following results: 
 
+![](https://roybin0.github.io/the-mesozoic-era/assets/images/lighthousereport.png)
+
+The lowest score is 83 for Best Practices. This is due to incorrect image aspect ratio and some images served with low resolution. This has been noted for future updates. 
 
 ## Deployment 
 
