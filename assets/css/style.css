@@ -85,6 +85,7 @@ h1, h2 {
 /* Mobile navigation style */ 
 #hamburger-icon {
     margin: auto 0;
+    padding-right: 20px;
     display: none;
     cursor: pointer;
   }
@@ -648,15 +649,19 @@ iframe {
         justify-content: space-around;
     }
 
-    .time-period-images > h5 {
-
-    }
-
 }
 
 
 @media screen and (max-width: 700px) {
 
+    h1 {
+        font-size: 80%;
+    }
+
+    .homepage-header h2 {
+        font-size: 160%;
+    }
+    
     .hero-image-small {
         display: none;
     }
@@ -666,17 +671,27 @@ iframe {
         width: 100%;
         justify-content: space-around;
     }
+
+    #logo {
+        padding-left: 15px;
+    }
      
     #menu-container {
       display: none;
     }
   
     #hamburger-icon {
-      display: block;
+      display: block; 
     }
 
     #logo-container {
-        justify-content: space-around;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .mobile-menu {
+        position: fixed;
+        z-index: 50;
     }
 
     .homepage-header {
