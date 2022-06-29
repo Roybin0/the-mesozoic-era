@@ -28,6 +28,7 @@ The link to the live website can be found here: [The Mesozoic Era](https://roybi
     * [Footer](#footer)
 * [Testing](#testing)
 * [Errors](#errors)
+* [Future Features](#future-features)
 * [Validator Testing](#validator-testing)
 * [Lighthouse Report](#lighthouse-report)
 * [Deployment](#deployment)
@@ -185,6 +186,11 @@ Responsive behaviour tested thoroughly and looks good. All pages and links worki
 * On deploying the website, there were issues with loading media on the site. The cause was determined to be an incorrect file path such as `/assets/images/dinosaurs.jpeg`. Removing the initial `/` resolved the issue. 
 * Mobile navigation initially failed on all pages except index.html. It was found to be lying under other divs and was resolved by setting a `z-index` in the CSS. 
 
+## Future Features 
+
+* I would like to add a dark mode option for users who prefer dark mode. 
+* I would like to add another section to the Time Period page with more dinosaur-specific facts and figures for each time period. This would need to act responsive like other elements and not add too much content to the overall page. A separate page could also be considered for this. 
+
 ## Validator Testing
 
 ### Wave Web Accessibility 
@@ -235,7 +241,7 @@ My site was deployed via GitHub using the following steps:
 
 ## Reference Material
 
-* Information on this website has been referenced from [National Geographic](https://www.nationalgeographic.com/science/article/dinosaur-extinction), [Wikipedia](https://en.wikipedia.org/wiki/Geologic_time_scale), [Britannica](https://www.britannica.com/science/end-Triassic-extinction), [dinopedia.fandom.com](https://dinopedia.fandom.com) and [dinosaurpictures.org](https://dinosaurpictures.org/). 
+* Information on this website has been referenced from [Earth How](https://earthhow.com/earth-timeline-geological-history-events/), [National Geographic](https://www.nationalgeographic.com/science/article/dinosaur-extinction), [Wikipedia](https://en.wikipedia.org/wiki/Geologic_time_scale), [Britannica](https://www.britannica.com/science/end-Triassic-extinction), [dinopedia.fandom.com](https://dinopedia.fandom.com) and [dinosaurpictures.org](https://dinosaurpictures.org/). 
 
 ## Other Code 
 

@@ -52,6 +52,9 @@ h1, h2 {
     height: 40px; 
     background-color: #adf1f4;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 #menu {
@@ -59,8 +62,8 @@ h1, h2 {
     font-weight: 500;
     font-size: 120%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .menu-links {
@@ -581,6 +584,10 @@ iframe {
         flex-direction: column;
         flex-wrap: nowrap;
         height: 100%;
+    }
+
+    .time-period-header h2 {
+        padding: 7px 0;
     }
 
     .time-period-content {
