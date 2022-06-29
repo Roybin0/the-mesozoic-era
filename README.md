@@ -22,7 +22,7 @@ The link to the live website can be found here: [The Mesozoic Era](https://roybi
 * [Features](#features)
     * [Navigation](#navigation)
     * [History](#history)
-    * [Slideshow of images](#slideshow-of-images)
+    * [Time Period Block](#time-period-block)
     * [Video](#video)
     * [Contact form](#contact-form)
     * [Footer](#footer)
@@ -135,17 +135,50 @@ The history timeline on the home page was built using flex design to allow for a
 
 ![](https://roybin0.github.io/the-mesozoic-era/assets/images/history-homepage.png)
 
-## Slideshow of Images
+## Time Period Block
 
+The time period block was built using flex display so that it is responsive and features a section for text content on one side, and a section for an image or video, or manual slideshow of images or videos on the other. 
 
+A tutorial from W3 schools was followed to achieve this and it allows the user to read interesting facts about the time period, while browsing images of the dinosaurs mentioned in the text. 
+
+![](https://roybin0.github.io/the-mesozoic-era/assets/images/slideshow.png)
 
 ## Video
 
+Videos were added to give the user multiple formats for learning about extinction level events during the Mesozoic Era. 
+
+Video does not autoplay and controls are available for users to play/pause as they need to. 
+
+Videos are found only on the Extinctions page which utlises the time period blocks. 
+
+![](https://roybin0.github.io/the-mesozoic-era/assets/images/video-extinctions.png)
+
 ## Contact Form
+
+The contact form was adapted from Code Institute's Love Running website. It allows users to get in touch if they have questions or would like to learn more and allows them to choose a contact preference - email or phone. 
+
+![](https://roybin0.github.io/the-mesozoic-era/assets/images/contact-form.png)
 
 ## Footer
 
+The footer is found on every page and contains links to the Contact page to social media pages. It also contains a copyright section. 
+
+![](https://roybin0.github.io/the-mesozoic-era/assets/images/footer.png)
+
+
 ## Testing
+
+### Desktop
+
+Google Chrome, Mozilla Firefox & Microsoft Edge; pages load successfully, all links and features working as expected. Responsive behaviour looks good. 
+
+### Tablet & Mobile 
+
+Huawei P20 Pro, Galaxy A40, Galaxy Tab; pages load successfully, all links and features working as expected. Mobile design in place. 
+
+### Chrome Developer Tools 
+
+Responsive behaviour tested thoroughly and looks good. All pages and links working as expected. 
 
 ## Errors 
 
@@ -169,6 +202,7 @@ The history timeline on the home page was built using flex design to allow for a
 * Manual slideshow was created with the help of W3 schools. Link to tutorial [here](https://www.w3schools.com/w3css/w3css_slideshow.asp).
 * Mobile navigation was created with the help of [Adam Nagy](https://dev.to/javascriptacademy/) on DEV.to. Link to tutorial [here](https://dev.to/javascriptacademy/responsive-navigation-bar-with-mobile-menu-using-html-css-2hpd). 
 * Social media links in footer were adapted from Code Institute's Love Running website. Link to code [here](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/06-site-footer/01-footer-main-structure).
+* Contact page was created with help from Code Institute's Love Running website. Link to code [here](https://github.com/Roybin0/love-running/blob/main/signup.html). 
 
 ## Acknowledgements 
 
