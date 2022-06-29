@@ -661,16 +661,6 @@ iframe {
     .homepage-header h2 {
         font-size: 160%;
     }
-    
-    .hero-image-small {
-        display: none;
-    }
-
-    .hero-image-mobile {
-        display: block;
-        width: 100%;
-        justify-content: space-around;
-    }
 
     #logo {
         padding-left: 15px;
@@ -709,4 +699,18 @@ iframe {
         padding: 10px 0; 
     }
 
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .hero-image-small {
+        display: none;
+    }
+
+    .hero-image-mobile {
+        display: block;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
   }
