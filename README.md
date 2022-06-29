@@ -187,15 +187,55 @@ Responsive behaviour tested thoroughly and looks good. All pages and links worki
 
 ## Validator Testing
 
+### Wave Web Accessibility 
+
+* Contrast errors were initially reported. This related to links found in paragraphs and was fixed by darkening the color for links. Reports are available for each page:
+    * [Home](https://wave.webaim.org/report#/https://roybin0.github.io/the-mesozoic-era/index.html)
+    * [Time Periods](https://wave.webaim.org/report#/https://roybin0.github.io/the-mesozoic-era/time-periods.html)
+    * [Extinctions](https://wave.webaim.org/report#/https://roybin0.github.io/the-mesozoic-era/extinction.html)
+    * [Contact](https://wave.webaim.org/report#/https://roybin0.github.io/the-mesozoic-era/contact.html)
+
+### HTML 
+
+* HTML was tested using the WS Nu HTML Checker. No errors found. Reports are available for each page: 
+    * [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Froybin0.github.io%2Fthe-mesozoic-era%2Findex.html)
+    * [Time Periods](https://validator.w3.org/nu/?doc=https%3A%2F%2Froybin0.github.io%2Fthe-mesozoic-era%2Ftime-periods.html)
+    * [Extinctions](https://validator.w3.org/nu/?doc=https%3A%2F%2Froybin0.github.io%2Fthe-mesozoic-era%2Fextinction.html)
+    * [Contact](https://validator.w3.org/nu/?doc=https%3A%2F%2Froybin0.github.io%2Fthe-mesozoic-era%2Fcontact.html) 
+
+### CSS 
+
+* CSS was tested using the W3C CSS Validation Service. No errors found. Reports are available for each page:
+    * [Home](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Froybin0.github.io%2Fthe-mesozoic-era%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [Time Periods](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Froybin0.github.io%2Fthe-mesozoic-era%2Ftime-periods.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [Extinctions](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Froybin0.github.io%2Fthe-mesozoic-era%2Fextinction.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [Contact](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Froybin0.github.io%2Fthe-mesozoic-era%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)   
+
+
 ## Lighthouse Report 
 
+
+
 ## Deployment 
+
+My site was deployed via GitHub using the following steps:
+    1. In the GitHub repository, navigate to the settings tab.
+    2. Select the Pages link in the left side menu.
+    3. Under Source, change drop-down menu to select the main branch.
+    4. Click Save
+    5. The page will automatically refresh and display a banner to indicate the successful deployment.
 
 ## Credits 
 
 ## Media 
 
+* Videos from YouTube - by History of Life, BBC Earth and Science Channel.
+
+* Images from [wikipedia.com](https://wikipedia.com), [jurassicpark.fandom.com](https://jurassicpark.fandom.com/), [fossil.fandom.com](https://fossil.fandom.com/), [dinopedia.fandom.com](https://dinopedia.fandom.com), [dinosaurpictures.org](https://dinosaurpictures.org/) and [britannica.com](https://www.britannica.com/). 
+
 ## Reference Material
+
+* Information on this website has been referenced from [National Geographic](https://www.nationalgeographic.com/science/article/dinosaur-extinction), [Wikipedia](https://en.wikipedia.org/wiki/Geologic_time_scale), [Britannica](https://www.britannica.com/science/end-Triassic-extinction), [dinopedia.fandom.com](https://dinopedia.fandom.com) and [dinosaurpictures.org](https://dinosaurpictures.org/). 
 
 ## Other Code 
 
@@ -206,9 +246,5 @@ Responsive behaviour tested thoroughly and looks good. All pages and links worki
 
 ## Acknowledgements 
 
-
-My site was deployed via GitHub using the following steps:
-GitHub repository, navigate to the settings tab.
-Select the pages link in the setting menu.
-Under the GitHub Pages from the source the section drop-down menu, select the master branch.
-One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+* A massive thank you to my mentor Rahul for the fantastic advice and guidance throughout this project 
+* Further thanks to my mother for the endless supply of tea 
